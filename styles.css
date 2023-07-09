@@ -1,6 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   text-align: center;
   background-color: #283149;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
 }
 
 h1 {
@@ -8,7 +18,7 @@ h1 {
   color: #DBEDF3;
   font-family: "Arvo", cursive;
   text-shadow: 3px 0 #DA0463;
-
+  margin-top: 2rem;
 }
 
 footer {
@@ -46,6 +56,9 @@ footer {
 
 .set {
   margin: 10% auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .game-over {
